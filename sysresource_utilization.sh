@@ -1,7 +1,7 @@
 #! /bin/bash
-if [[ $# -ne 2 ]];
+if ! [[ $# -eq 1 || $# -eq 2 ]];
 then       
-	echo "usage:$0 <time in seconds>"
+	echo "usage:$0 <time in seconds> [all/cpu/disk/memory]"
 	exit 1
 fi
 cpu()
