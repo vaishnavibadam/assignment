@@ -115,7 +115,7 @@ memory $1
 disk $1
 	
 }
-
+shopt -s nocasematch
 if [[ "$2" == "all" ]]
 then
 all $1
