@@ -4,6 +4,7 @@ then
 	echo "usage:$0 <time in seconds> [all/cpu/disk/memory]"
 	exit 1
 fi
+
 cpu()
 {
 count=0
@@ -134,6 +135,15 @@ if [[ "$2" == "disk" ]]
 then
 disk $1
 fi
+if [[ "$2" == " " ]]
+then
+all $1
+fi
+if ! [[ "$2" == " " || "$2" == "all" || "$2" == "cpu" || "$2" == "disk"  || "$2" == "memory" ]]
+then
+all $1
+fi
+
 
 
 
