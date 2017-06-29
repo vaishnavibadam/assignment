@@ -1,4 +1,7 @@
-			*****"diskusage_warning.sh" , "diskwarning_crontab.sh"****** [ SCORE : 17 ]
+			*****" OVERALL SCORE : 82/100 "*****			
+
+
+		*****"diskusage_warning.sh" , "diskwarning_crontab.sh"****** [ SCORE : 17/25 ]
 
 
 	<< UNDERSTANDING REQUIREMENTS >> 3 
@@ -24,7 +27,7 @@
 1.Every time user enters schedule, So it will store in crontab.
 
 
- 			******sysresource_utilization.sh********* [ SCORE : 23 ]
+ 			******sysresource_utilization.sh********* [ SCORE : 23/25]
 
 	<< UNDERSTANDING REQUIREMENTS >> 5
 
@@ -40,7 +43,7 @@
 
 	<< FUTURE SCOPE >> 5
 
-			******filetype_searchpattern.sh****** [ SCORE : 18 ]
+			******filetype_searchpattern.sh****** [ SCORE : 18/25 ]
 
 	<< UNDERSTANDING REQUIREMENTS >> 3
 
@@ -61,4 +64,20 @@
 
 1.SEARCH a pattern from multiple types of files.
 2.fail to search a pattern from single file.
+
+			******remotemachine_filelist.sh******[ SCORE : 24/25]
+
+	<< UNDERSTANDING REQUIREMENTS >> 5
+
+
+	<< NAMING CONVENTION >> 5
+
+	<< CODING >> 4
+
+1.password is visible.
+
+	<< USE CASE COURAGE >> 5
+
+	<< FUTURE SCOPE >> 5
+
 
