@@ -22,3 +22,21 @@
 	<< FUTURE SCOPE >> 4
 
 1.Every time user enters schedule, So it will store in crontab.
+
+
+ 			******sysresource_utilization.sh*********
+
+	<< UNDERSTANDING REQUIREMENTS >> 5
+
+	<< NAMING CONVENTION >> 5
+
+	<< CODING >> 4
+
+1.May use switch case instead of if in case of selecting resource.
+
+	<< USE CASE COURAGE >>4
+
+1.If user enter any argument other than given options not showing any error it takes default value. 
+
+	<< FUTURE SCOPE >> 5
+
